@@ -1,0 +1,55 @@
+$date
+	Wed Mar  9 23:21:45 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module NOTT $end
+$var wire 1 ! w $end
+$var reg 1 " a $end
+$scope module n $end
+$var wire 1 " a $end
+$var wire 1 # gdd $end
+$var wire 1 $ vdd $end
+$var wire 1 ! w $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1$
+0#
+0"
+x!
+$end
+#5
+1!
+#20
+1"
+#24
+x!
+#27
+0!
+#40
+0"
+#45
+1!
+#60
+1"
+#64
+x!
+#67
+0!
+#80
+0"
+#85
+1!
+#100
+1"
+#104
+x!
+#107
+0!

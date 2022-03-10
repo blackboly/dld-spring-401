@@ -1,0 +1,134 @@
+$date
+	Wed Mar  9 23:12:54 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module NORT $end
+$var wire 1 ! w $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$scope module uut $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 1 $ gdd $end
+$var wire 1 % vdd $end
+$var wire 1 ! w $end
+$var wire 1 & y1 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x&
+1%
+0$
+0#
+0"
+x!
+$end
+#5
+x!
+1&
+#10
+1!
+#100
+1"
+#104
+x!
+#107
+z&
+#114
+0!
+#200
+0"
+#205
+1&
+z!
+#210
+1!
+#220
+1#
+#224
+x!
+#227
+0!
+#300
+1"
+#307
+z&
+#400
+0"
+#405
+1&
+#440
+0#
+#445
+1!
+#500
+1"
+#504
+x!
+#507
+z&
+#514
+0!
+#600
+0"
+#605
+1&
+z!
+#610
+1!
+#660
+1#
+#664
+x!
+#667
+0!
+#700
+1"
+#707
+z&
+#800
+0"
+#805
+1&
+#880
+0#
+#885
+1!
+#900
+1"
+#904
+x!
+#907
+z&
+#914
+0!
+#1000
+0"
+#1005
+1&
+z!
+#1010
+1!
+#1100
+1"
+1#
+#1104
+x!
+#1107
+z&
+0!
+#1200
+0"
+#1205
+1&
+#1300
+1"
+#1307
+z&
