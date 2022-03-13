@@ -11,3 +11,5 @@ for element in a:
 out = []
 for element in a:
     out.append(elements_count)[element]
+
+    
