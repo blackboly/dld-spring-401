@@ -18,7 +18,3 @@ module OAI1T();
         $display("test complate");
     end
 endmodule
-
-
-
-
