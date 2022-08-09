@@ -55,7 +55,7 @@ def delMin(root, s):
 import random
 import time
 # n = int(input())
-n = 100000
+n = 10000
 l = []   
 for _ in range(n):
     l.append(random.randint(1, 100000000))

@@ -19,7 +19,7 @@ S_0x55cb924102b0 .scope module, "uut" "oia1" 2 6, 3 1 0, S_0x55cb92410130;
     .port_info 2 /INPUT 1 "c"
     .port_info 3 /OUTPUT 1 "w"
 L_0x55cb924577e0 .functor OR 1, v0x55cb92457480_0, v0x55cb92457540_0, C4<0>, C4<0>;
-L_0x55cb92457920 .functor AND 1, L_0x55cb924577e0, v0x55cb92457610_0, C4<1>, C4<1>;
+L_0x55cb92457920 .functor ANd 1, L_0x55cb924577e0, v0x55cb92457610_0, C4<1>, C4<1>;
 L_0x55cb92457a30 .functor NOT 1, L_0x55cb92457920, C4<0>, C4<0>, C4<0>;
 v0x55cb92445a50_0 .net *"_s0", 0 0, L_0x55cb924577e0;  1 drivers
 v0x55cb92456fc0_0 .net *"_s2", 0 0, L_0x55cb92457920;  1 drivers

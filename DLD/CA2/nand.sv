@@ -1,4 +1,4 @@
-module NAND(input a,b, output w);
+module NANd(input a,b, output w);
     supply1 vdd;
     supply0 gdd;
     wire y1;

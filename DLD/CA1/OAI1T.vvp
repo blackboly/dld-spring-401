@@ -72,7 +72,7 @@ S_0x55d9fe8dcde0 .scope module, "uut4" "OAI5" 2 10, 5 1 0, S_0x55d9fe8c5180;
     .port_info 2 /INPUT 1 "c"
     .port_info 3 /OUTPUT 1 "w"
 L_0x55d9fe8df480 .functor OR 1, v0x55d9fe8dd680_0, v0x55d9fe8dd740_0, C4<0>, C4<0>;
-L_0x55d9fe8df510 .functor AND 1, L_0x55d9fe8df480, v0x55d9fe8dd800_0, C4<1>, C4<1>;
+L_0x55d9fe8df510 .functor ANd 1, L_0x55d9fe8df480, v0x55d9fe8dd800_0, C4<1>, C4<1>;
 L_0x55d9fe8df5f0/d .functor NOT 1, L_0x55d9fe8df510, C4<0>, C4<0>, C4<0>;
 L_0x55d9fe8df5f0 .delay 1 (6,9,6) L_0x55d9fe8df5f0/d;
 v0x55d9fe8dd050_0 .net *"_s0", 0 0, L_0x55d9fe8df480;  1 drivers

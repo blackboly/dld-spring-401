@@ -1,0 +1,37 @@
+#! /usr/bin/vvp
+:ivl_version "10.3 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x5580162c5130 .scope module, "NOR" "NOR" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a"
+    .port_info 1 /INPUT 1 "b"
+    .port_info 2 /OUTPUT 1 "w"
+L_0x558016309d50 .functor BUFT 1, C8<771>, C4<0>, C4<0>, C4<0>;
+o0x7f492be1f018 .functor BUFZ 1, C4<z>; HiZ drive
+L_0x558016309e10/d .functor PMOS 1, L_0x558016309d50, o0x7f492be1f018, C4<0>, C4<0>;
+L_0x558016309e10 .delay 1 (5,6,7) L_0x558016309e10/d;
+o0x7f492be1f048 .functor BUFZ 1, C4<z>; HiZ drive
+L_0x55801630a0e0/d .functor PMOS 1, L_0x558016309e10, o0x7f492be1f048, C4<0>, C4<0>;
+L_0x55801630a0e0 .delay 1 (5,6,7) L_0x55801630a0e0/d;
+L_0x558016309ce0 .functor BUFT 1, C8<770>, C4<0>, C4<0>, C4<0>;
+L_0x55801630a3e0/d .functor NMOS 1, L_0x558016309ce0, o0x7f492be1f018, C4<0>, C4<0>;
+L_0x55801630a3e0 .delay 1 (3,4,5) L_0x55801630a3e0/d;
+L_0x55801630a720/d .functor NMOS 1, L_0x558016309ce0, o0x7f492be1f048, C4<0>, C4<0>;
+L_0x55801630a720 .delay 1 (3,4,5) L_0x55801630a720/d;
+v0x5580162c5300_0 .net "a", 0 0, o0x7f492be1f018;  0 drivers
+v0x558016309870_0 .net "b", 0 0, o0x7f492be1f048;  0 drivers
+v0x558016309930_0 .net8 "gdd", 0 0, L_0x558016309ce0;  1 drivers, strength-aware
+v0x5580163099d0_0 .net8 "vdd", 0 0, L_0x558016309d50;  1 drivers, strength-aware
+RS_0x7f492be1f0d8 .resolv tri, L_0x55801630a0e0, L_0x55801630a3e0, L_0x55801630a720;
+v0x558016309a90_0 .net8 "w", 0 0, RS_0x7f492be1f0d8;  3 drivers, strength-aware
+v0x558016309ba0_0 .net8 "y1", 0 0, L_0x558016309e10;  1 drivers, strength-aware
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "nor.sv";
